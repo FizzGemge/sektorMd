@@ -2,23 +2,23 @@ const fs = require('fs')
 
 const { existsSync } = require('fs')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("6288296172396,6288296172396")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'sam@secktor.live'
+global.email = 'fizzfeedback@gmail.com'
 global.github = 'https://github.com/SamPandey001/Secktor-Md'
 global.location = 'Sultanpur IN'
-global.sudo = process.env.SUDO || '919628516236'
-global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
+global.sudo = process.env.SUDO || '6288296172396'
+global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+6288296172396
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
-  ownername:process.env.OWNER_NAME || 'SamPandey001',
+  botname: process.env.BOT_NAME || '𝑯𝒊𝒏𝒂𝒕𝒂 𝑩𝒐𝒕',
+  ownername:process.env.OWNER_NAME || '𝑭𝒊𝒛𝒛𝒙',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0], 
   packname: process.env.PACK_INFO.split(";")[1],
   autoreaction: process.env.AUTO_REACTION || 'off',
-  antibadword : process.env.ANTI_BAD_WORD || '92',
-  antifake : process.env.FAKE_COUNTRY_CODE || '',
+  antibadword : process.env.ANTI_BAD_WORD || '62',
+  antifake : process.env.FAKE_COUNTRY_CODE || '50',
   readmessage: process.env.READ_MESSAGE || true,
   prefix: process.env.PREFIX || ['.'],
   nsfw_detect_ai : process.env.NSFW_DETECTION_AI || 'false',
